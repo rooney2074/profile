@@ -1,0 +1,40 @@
+#backimage{
+    background-image: url("green.jpg");
+    height: 600px;
+    width: 100%;
+    opacity: 80%;
+}
+#border{
+    border: solid green 10px;
+}
+#my{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: white 1px solid;
+    border-radius: 5px;
+    margin: 50px;
+}
+h3:hover{
+    color: rgb(37, 97, 37);
+    transition: 0.5s;
+}
+#my:hover{
+    background-color: green;
+    color: white;
+    transition: 0.8s;
+}
+#border:hover{
+    border: green solid 20px;
+    transition: 1s;
+}
+.backimage2{
+    background-color: green;
+    width: 100%;
+    height: 500px;
+    opacity: 70%;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
